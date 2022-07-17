@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8205D5CC288342310019B183 /* digital-7 (italic).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8205D5CB288342310019B183 /* digital-7 (italic).ttf */; };
+		8217A1DE28848E6A002645A8 /* BpmLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8217A1DD28848E6A002645A8 /* BpmLogic.swift */; };
+		8238D0AC2883A1E3007831A1 /* SF-Pro-Rounded.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8238D0AB2883A1E3007831A1 /* SF-Pro-Rounded.ttf */; };
+		824325B62881B6F700D050E9 /* BpmTapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824325B52881B6F700D050E9 /* BpmTapApp.swift */; };
+		824325B82881B6F700D050E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824325B72881B6F700D050E9 /* ContentView.swift */; };
+		824325BA2881B6F800D050E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824325B92881B6F800D050E9 /* Assets.xcassets */; };
+		824325BD2881B6F800D050E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824325BC2881B6F800D050E9 /* Preview Assets.xcassets */; };
+		824325C52882424800D050E9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824325C42882424800D050E9 /* Extensions.swift */; };
+		824325CF28824C4B00D050E9 /* RubikMonoOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 824325CE28824C4B00D050E9 /* RubikMonoOne-Regular.ttf */; };
+		824325D128824C7000D050E9 /* FontsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824325D028824C7000D050E9 /* FontsManager.swift */; };
+		82D647EA2882506F001F5386 /* Rubik-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82D647E92882506F001F5386 /* Rubik-ExtraBold.ttf */; };
+		82D647EC28825079001F5386 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82D647EB28825079001F5386 /* Rubik-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8205D5CB288342310019B183 /* digital-7 (italic).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (italic).ttf"; sourceTree = "<group>"; };
+		8217A1DD28848E6A002645A8 /* BpmLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BpmLogic.swift; sourceTree = "<group>"; };
+		8238D0AB2883A1E3007831A1 /* SF-Pro-Rounded.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded.ttf"; sourceTree = "<group>"; };
+		824325B22881B6F700D050E9 /* BpmTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BpmTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		824325B52881B6F700D050E9 /* BpmTapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BpmTapApp.swift; sourceTree = "<group>"; };
+		824325B72881B6F700D050E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		824325B92881B6F800D050E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		824325BC2881B6F800D050E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		824325BE2881B6F800D050E9 /* BpmTap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BpmTap.entitlements; sourceTree = "<group>"; };
+		824325C42882424800D050E9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		824325CC28824A3300D050E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		824325CE28824C4B00D050E9 /* RubikMonoOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RubikMonoOne-Regular.ttf"; sourceTree = "<group>"; };
+		824325D028824C7000D050E9 /* FontsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsManager.swift; sourceTree = "<group>"; };
+		82D647E92882506F001F5386 /* Rubik-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-ExtraBold.ttf"; sourceTree = "<group>"; };
+		82D647EB28825079001F5386 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		824325AF2881B6F700D050E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		824325A92881B6F700D050E9 = {
+			isa = PBXGroup;
+			children = (
+				8217A1DD28848E6A002645A8 /* BpmLogic.swift */,
+				824325B42881B6F700D050E9 /* BpmTap */,
+				824325B32881B6F700D050E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		824325B32881B6F700D050E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				824325B22881B6F700D050E9 /* BpmTap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		824325B42881B6F700D050E9 /* BpmTap */ = {
+			isa = PBXGroup;
+			children = (
+				824325CD28824C3C00D050E9 /* Fonts */,
+				824325CC28824A3300D050E9 /* Info.plist */,
+				824325C62882435B00D050E9 /* Views */,
+				824325B52881B6F700D050E9 /* BpmTapApp.swift */,
+				824325B92881B6F800D050E9 /* Assets.xcassets */,
+				824325BE2881B6F800D050E9 /* BpmTap.entitlements */,
+				824325BB2881B6F800D050E9 /* Preview Content */,
+				824325C42882424800D050E9 /* Extensions.swift */,
+				824325D028824C7000D050E9 /* FontsManager.swift */,
+			);
+			path = BpmTap;
+			sourceTree = "<group>";
+		};
+		824325BB2881B6F800D050E9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				824325BC2881B6F800D050E9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		824325C62882435B00D050E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				824325B72881B6F700D050E9 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		824325CD28824C3C00D050E9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8238D0AB2883A1E3007831A1 /* SF-Pro-Rounded.ttf */,
+				824325CE28824C4B00D050E9 /* RubikMonoOne-Regular.ttf */,
+				82D647E92882506F001F5386 /* Rubik-ExtraBold.ttf */,
+				82D647EB28825079001F5386 /* Rubik-Regular.ttf */,
+				8205D5CB288342310019B183 /* digital-7 (italic).ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		824325B12881B6F700D050E9 /* BpmTap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 824325C12881B6F800D050E9 /* Build configuration list for PBXNativeTarget "BpmTap" */;
+			buildPhases = (
+				824325AE2881B6F700D050E9 /* Sources */,
+				824325AF2881B6F700D050E9 /* Frameworks */,
+				824325B02881B6F700D050E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BpmTap;
+			productName = BpmTap;
+			productReference = 824325B22881B6F700D050E9 /* BpmTap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		824325AA2881B6F700D050E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					824325B12881B6F700D050E9 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 824325AD2881B6F700D050E9 /* Build configuration list for PBXProject "BpmTap" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 824325A92881B6F700D050E9;
+			productRefGroup = 824325B32881B6F700D050E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				824325B12881B6F700D050E9 /* BpmTap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		824325B02881B6F700D050E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8238D0AC2883A1E3007831A1 /* SF-Pro-Rounded.ttf in Resources */,
+				824325BD2881B6F800D050E9 /* Preview Assets.xcassets in Resources */,
+				8205D5CC288342310019B183 /* digital-7 (italic).ttf in Resources */,
+				824325BA2881B6F800D050E9 /* Assets.xcassets in Resources */,
+				82D647EA2882506F001F5386 /* Rubik-ExtraBold.ttf in Resources */,
+				82D647EC28825079001F5386 /* Rubik-Regular.ttf in Resources */,
+				824325CF28824C4B00D050E9 /* RubikMonoOne-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		824325AE2881B6F700D050E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				824325B82881B6F700D050E9 /* ContentView.swift in Sources */,
+				824325C52882424800D050E9 /* Extensions.swift in Sources */,
+				824325D128824C7000D050E9 /* FontsManager.swift in Sources */,
+				824325B62881B6F700D050E9 /* BpmTapApp.swift in Sources */,
+				8217A1DE28848E6A002645A8 /* BpmLogic.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		824325BF2881B6F800D050E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		824325C02881B6F800D050E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		824325C22881B6F800D050E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BpmTap/BpmTap.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BpmTap/Preview Content\"";
+				DEVELOPMENT_TEAM = FF9Q5V3Z5W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BpmTap/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jware.BpmTap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		824325C32881B6F800D050E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BpmTap/BpmTap.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BpmTap/Preview Content\"";
+				DEVELOPMENT_TEAM = FF9Q5V3Z5W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BpmTap/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jware.BpmTap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		824325AD2881B6F700D050E9 /* Build configuration list for PBXProject "BpmTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824325BF2881B6F800D050E9 /* Debug */,
+				824325C02881B6F800D050E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		824325C12881B6F800D050E9 /* Build configuration list for PBXNativeTarget "BpmTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824325C22881B6F800D050E9 /* Debug */,
+				824325C32881B6F800D050E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 824325AA2881B6F700D050E9 /* Project object */;
+}
